@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  PoopViewController.swift
 //  FoodDiary
 //
 //  Created by Robert Rehm on 10/27/15.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class PoopViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

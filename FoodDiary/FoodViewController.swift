@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  FoodViewController.swift
 //  FoodDiary
 //
 //  Created by Robert Rehm on 10/27/15.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class FoodViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

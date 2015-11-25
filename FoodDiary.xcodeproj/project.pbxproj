@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		C5285C411BDFF1B7001ABA10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5285C401BDFF1B7001ABA10 /* AppDelegate.swift */; };
-		C5285C431BDFF1B7001ABA10 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5285C421BDFF1B7001ABA10 /* FirstViewController.swift */; };
-		C5285C451BDFF1B7001ABA10 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5285C441BDFF1B7001ABA10 /* SecondViewController.swift */; };
+		C5285C431BDFF1B7001ABA10 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5285C421BDFF1B7001ABA10 /* FoodViewController.swift */; };
+		C5285C451BDFF1B7001ABA10 /* PoopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5285C441BDFF1B7001ABA10 /* PoopViewController.swift */; };
 		C5285C481BDFF1B7001ABA10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5285C461BDFF1B7001ABA10 /* Main.storyboard */; };
 		C5285C4A1BDFF1B7001ABA10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5285C491BDFF1B7001ABA10 /* Assets.xcassets */; };
 		C5285C4D1BDFF1B7001ABA10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5285C4B1BDFF1B7001ABA10 /* LaunchScreen.storyboard */; };
 		C5285C581BDFF1B7001ABA10 /* FoodDiaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5285C571BDFF1B7001ABA10 /* FoodDiaryUITests.swift */; };
+		C5B6D4D11C02253400F9120C /* StomachPainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B6D4D01C02253400F9120C /* StomachPainViewController.swift */; };
+		C5B6D4D31C02253E00F9120C /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B6D4D21C02253E00F9120C /* DataViewController.swift */; };
+		C5B6D4D51C0225AD00F9120C /* HealthEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B6D4D41C0225AD00F9120C /* HealthEvent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,8 +32,8 @@
 /* Begin PBXFileReference section */
 		C5285C3D1BDFF1B7001ABA10 /* FoodDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5285C401BDFF1B7001ABA10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C5285C421BDFF1B7001ABA10 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		C5285C441BDFF1B7001ABA10 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C5285C421BDFF1B7001ABA10 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		C5285C441BDFF1B7001ABA10 /* PoopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoopViewController.swift; sourceTree = "<group>"; };
 		C5285C471BDFF1B7001ABA10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5285C491BDFF1B7001ABA10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5285C4C1BDFF1B7001ABA10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +41,9 @@
 		C5285C531BDFF1B7001ABA10 /* FoodDiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodDiaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5285C571BDFF1B7001ABA10 /* FoodDiaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDiaryUITests.swift; sourceTree = "<group>"; };
 		C5285C591BDFF1B7001ABA10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5B6D4D01C02253400F9120C /* StomachPainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StomachPainViewController.swift; sourceTree = "<group>"; };
+		C5B6D4D21C02253E00F9120C /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		C5B6D4D41C0225AD00F9120C /* HealthEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthEvent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +86,11 @@
 			isa = PBXGroup;
 			children = (
 				C5285C401BDFF1B7001ABA10 /* AppDelegate.swift */,
-				C5285C421BDFF1B7001ABA10 /* FirstViewController.swift */,
-				C5285C441BDFF1B7001ABA10 /* SecondViewController.swift */,
+				C5B6D4D41C0225AD00F9120C /* HealthEvent.swift */,
+				C5285C421BDFF1B7001ABA10 /* FoodViewController.swift */,
+				C5285C441BDFF1B7001ABA10 /* PoopViewController.swift */,
+				C5B6D4D01C02253400F9120C /* StomachPainViewController.swift */,
+				C5B6D4D21C02253E00F9120C /* DataViewController.swift */,
 				C5285C461BDFF1B7001ABA10 /* Main.storyboard */,
 				C5285C491BDFF1B7001ABA10 /* Assets.xcassets */,
 				C5285C4B1BDFF1B7001ABA10 /* LaunchScreen.storyboard */,
@@ -200,9 +209,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5285C451BDFF1B7001ABA10 /* SecondViewController.swift in Sources */,
+				C5B6D4D11C02253400F9120C /* StomachPainViewController.swift in Sources */,
+				C5285C451BDFF1B7001ABA10 /* PoopViewController.swift in Sources */,
+				C5B6D4D31C02253E00F9120C /* DataViewController.swift in Sources */,
 				C5285C411BDFF1B7001ABA10 /* AppDelegate.swift in Sources */,
-				C5285C431BDFF1B7001ABA10 /* FirstViewController.swift in Sources */,
+				C5B6D4D51C0225AD00F9120C /* HealthEvent.swift in Sources */,
+				C5285C431BDFF1B7001ABA10 /* FoodViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +404,7 @@
 				C5285C5E1BDFF1B7001ABA10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5285C5F1BDFF1B7001ABA10 /* Build configuration list for PBXNativeTarget "FoodDiaryUITests" */ = {
 			isa = XCConfigurationList;
@@ -400,6 +413,7 @@
 				C5285C611BDFF1B7001ABA10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
